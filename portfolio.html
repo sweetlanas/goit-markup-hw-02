@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>Web Studio</title>
 </head>
@@ -12,32 +15,32 @@
 <body>
 
   <!-- Шапка -->
-  <header>
-    <nav>
-      <a href="/">WebStudio</a>
-      <ul>
-        <li>
-          <a href="/index.html">Студия</a>
-        </li>
-        <li>
-          <a href="/portfolio.html">Портфолио</a>
-        </li>
-        <li>
-          <a href="">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <address>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </address>
-  </header>
+<header>
+  <nav class="navigation">
+    <a href="/" class="logo-up"><span class="logo-accent">Web</span>Studio</a>
+    <ul class="nav-list">
+      <li class="nav-list-item">
+        <a href="/index.html" class="nav-list-link">Студия</a>
+      </li>
+      <li class="nav-list-item">
+        <a href="./portfolio.html" class="nav-list-link current">Портфолио</a>
+      </li>
+      <li class="nav-list-item">
+        <a href="" class="nav-list-link">Контакты</a>
+      </li>
+    </ul>
+  </nav>
+  <address class="contacts">
+    <ul class="contacts-list">
+      <li class="contacts-list-item">
+        <a href="mailto:info@devstudio.com" class="contacts-list-link">info@devstudio.com</a>
+      </li>
+      <li class="contacts-list-item">
+        <a href="tel:+380961111111" class="contacts-list-link">+38 096 111 11 11</a>
+      </li>
+    </ul>
+  </address>
+</header>
 
 <!-- Порфолио -->
 <main>
@@ -45,11 +48,11 @@
   <section>
     <h2 class="visually-hidden">Фильтр проектов</h2>
     <ul>
-      <li>Все</li>
-      <li>Веб-сайты</li>
-      <li>Приложения</li>
-      <li>Дизайн</li>
-      <li>Маркетинг</li>
+      <li><button type="button">Все</button></li>
+      <li><button type="button">Веб-сайты</button></li>
+      <li><button type="button">Приложения</button></li>
+      <li><button type="button">Дизайн</button></li>
+      <li><button type="button">Маркетинг</button></li>
     </ul>
   </section>
   <section>
